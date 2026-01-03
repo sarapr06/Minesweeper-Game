@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="game-header">
+            <h1>Minesweeper!</h1>
+            <div class="game-controls">
+                <div class="stat">
+                    <span class="stat-label">Mines:</span>
+                    <span class="stat-value" id="mine-count">10</span>
+                </div>
+                <button class="reset-btn" id="reset-btn">🥺</button>
+                <div class="stat">
+                    <span class="stat-label">Time:</span>
+                    <span class="stat-value" id="timer">000</span>
+                </div>
+            </div>
+            <div class="difficulty-selector">
+                <button class="difficulty-btn active" data-difficulty="easy">Easy</button>
+                <button class="difficulty-btn" data-difficulty="medium">Medium</button>
+                <button class="difficulty-btn" data-difficulty="hard">Hard</button>
+            </div>
+            <div class="high-score">
+                <span class="high-score-label">Best Time:</span>
+                <span class="high-score-value" id="high-score">---</span>
+            </div>
+        </div>
+        <div class="game-board" id="game-board"></div>
+        <div class="game-info">
+            <p>Left-click to reveal • Right-click to flag</p>
+        </div>
+    </div>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">🌙</button>
+    <script src="script.js"></script>
+</body>
+</html>
+
