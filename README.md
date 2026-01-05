@@ -2,7 +2,7 @@
 
 A Minesweeper game built with vanilla HTML, CSS, and JavaScript.
 
- **Live at:** [https://sarapr06.github.io/minesweeper/](https://sarapr06.github.io/minesweeper/)
+ **Live at:** [[https://sarapr06.github.io/minesweeper/](http://www.saraparvareshrizi.com/Minesweeper-Game/)](https://sarapr06.github.io/minesweeper/)
 
 ## Features
 
